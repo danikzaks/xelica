@@ -1,0 +1,22 @@
+[Details]
+Icon = "../../theme/icons/fyne.png" 
+Name = "Xelica"
+ID = "com.danikzaks.xelica"
+Version = "1.0.0"
+Build = 1
+
+[Source]
+Repo = "https://github.com/danikzaks/xelica"
+Dir = "cmd"
+
+[Development]
+HelperText = "This binary was built with debug symbols"
+
+[Release]
+HelperText = "This binary was built without debug symbols"
+
+[LinuxAndBSD]
+GenericName = "Toolkit Demo"
+Categories = ["Development"]
+Comment = "A demo of Fyne and its capabilities."
+Keywords = ["demo", "fyne"]

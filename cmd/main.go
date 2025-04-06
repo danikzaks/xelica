@@ -6,10 +6,10 @@ import (
 )
 
 func main() {
-	myApp := app.New()
+	a := app.New()
 
-	window := myApp.NewWindow("Xelica Tool")
-
+	window := a.NewWindow("Xelica Tool")
+	
 	ui.SetupUI(window)
 
 	window.ShowAndRun()
