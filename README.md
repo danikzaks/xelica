@@ -61,4 +61,4 @@ make run
 3. Отправьте pull request с вашими изменениями.
 
 ## Лицензия
-Этот проект лицензируется под лицензией MIT. См. LICENSE для подробностей.
+Этот проект лицензируется под лицензией MIT. См. [LICENSE](https://github.com/danikzaks/xelica/blob/main/LICENSE) для подробностей.
