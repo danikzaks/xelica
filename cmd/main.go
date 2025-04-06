@@ -1,20 +1,16 @@
 package main
 
 import (
-	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
-	"fyne.io/fyne/v2/widget"
+	"github.com/danikzaks/xelica/internal/ui"
 )
 
 func main() {
 	myApp := app.New()
 
-	myWindow := myApp.NewWindow("Xelica")
+	window := myApp.NewWindow("Xelica Tool")
 
-	hi := widget.NewLabel("Hi")
+	ui.SetupUI(window)
 
-	myWindow.SetContent(hi)
-	myWindow.Resize(fyne.NewSize(400, 400))
-
-	myWindow.ShowAndRun()
+	window.ShowAndRun()
 }
