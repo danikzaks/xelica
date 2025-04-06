@@ -8,9 +8,10 @@ import (
 func main() {
 	a := app.New()
 
-	window := a.NewWindow("Xelica Tool")
-	
-	ui.SetupUI(window)
+	w := a.NewWindow("Xelica Tool")
 
-	window.ShowAndRun()
+	w.SetMainMenu(ui.MakeMenu(a, w))
+	ui.SetupUI(w)
+
+	w.ShowAndRun()
 }
